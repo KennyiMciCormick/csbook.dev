@@ -1,0 +1,1011 @@
+[2017-07-29 00:01:02] Текст помилки: syntax error, unexpected 'echo' (T_ECHO) | Файл: C:\OpenServer\domains\book.dev\app\controllers\MainController.php, | Рядок: 47
+==========================
+[2017-07-29 00:01:02] Текст помилки: Use of undefined constant DEBUG - assumed 'DEBUG' | Файл: C:\OpenServer\domains\book.dev\vendor\core\ErrorHandler.php, | Рядок: 57
+==========================
+[2017-07-29 00:02:40] Текст помилки: syntax error, unexpected '}' | Файл: C:\OpenServer\domains\book.dev\app\controllers\MainController.php, | Рядок: 39
+==========================
+[2017-07-29 00:02:41] Текст помилки: syntax error, unexpected '}' | Файл: C:\OpenServer\domains\book.dev\app\controllers\MainController.php, | Рядок: 39
+==========================
+[2017-07-29 00:19:42] Текст помилки: Контроллер <b>app\controllers\admin\LoginController</b> не знайдено | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 00:19:53] Текст помилки: Метод <b>app\controllers\admin\AdminsController : loginAction</b> не знайдено | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 66
+==========================
+[2017-07-29 00:20:17] Текст помилки: Метод <b>app\controllers\admin\AdminsController : loginAction</b> не знайдено | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 66
+==========================
+[2017-07-29 00:20:19] Текст помилки: Call to undefined method app\controllers\admin\AdminsController::getView() | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 64
+==========================
+[2017-07-29 00:21:22] Текст помилки: Call to undefined method app\controllers\admin\AdminsController::getView() | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 64
+==========================
+[2017-07-29 00:21:49] Текст помилки: <p>Нема в'юшки..( C:\OpenServer\domains\book.dev/app/views/admin\Admins/login.php</p> | Файл: C:\OpenServer\domains\book.dev\vendor\core\base\View.php, | Рядок: 54
+==========================
+[2017-07-29 00:21:50] Текст помилки: <p>Нема в'юшки..( C:\OpenServer\domains\book.dev/app/views/admin\Admins/login.php</p> | Файл: C:\OpenServer\domains\book.dev\vendor\core\base\View.php, | Рядок: 54
+==========================
+[2017-07-29 00:22:20] Текст помилки: <p>Нема шаблону..( C:\OpenServer\domains\book.dev/app/views/layouts/admin.php</p> | Файл: C:\OpenServer\domains\book.dev\vendor\core\base\View.php, | Рядок: 62
+==========================
+[2017-07-29 00:22:41] Текст помилки: <p>Нема шаблону..( C:\OpenServer\domains\book.dev/app/views/layouts/admin.php</p> | Файл: C:\OpenServer\domains\book.dev\vendor\core\base\View.php, | Рядок: 62
+==========================
+[2017-07-29 00:48:06] Текст помилки: Undefined property: app\controllers\admin\AdminsController::$Flash | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AdminsController.php, | Рядок: 23
+==========================
+[2017-07-29 00:48:23] Текст помилки: Undefined property: app\controllers\admin\AdminsController::$Flash | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AdminsController.php, | Рядок: 23
+==========================
+[2017-07-29 01:41:57] Текст помилки: Метод <b>app\controllers\MainController : index</b> не знайдено | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 66
+==========================
+[2017-07-29 01:42:23] Текст помилки: Метод <b>app\controllers\MainController : index</b> не знайдено | Файл: C:\OpenServer\domains\book.dev\vendor\core\Router.php, | Рядок: 66
+==========================
+[2017-07-29 02:20:15] Текст помилки: <p>Нема в'юшки..( C:\OpenServer\domains\book.dev/app/views/admin\Admins/test.php</p> | Файл: C:\OpenServer\domains\book.dev\vendor\core\base\View.php, | Рядок: 54
+==========================
+[2017-07-29 02:23:20] Текст помилки: require_once(C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php): failed to open stream: Permission denied | Файл: C:\OpenServer\domains\book.dev\www\index.php, | Рядок: 19
+==========================
+[2017-07-29 02:28:01] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 31
+==========================
+[2017-07-29 02:28:02] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 31
+==========================
+[2017-07-29 02:28:17] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 31
+==========================
+[2017-07-29 02:28:18] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 32
+==========================
+[2017-07-29 02:28:19] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 32
+==========================
+[2017-07-29 02:28:20] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 32
+==========================
+[2017-07-29 02:28:31] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 32
+==========================
+[2017-07-29 02:28:32] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 32
+==========================
+[2017-07-29 02:29:03] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 31
+==========================
+[2017-07-29 02:30:17] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 02:30:18] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\book.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 02:32:59] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:33:00] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:33:43] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:33:47] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:34:32] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:35:01] Текст помилки: setcookie() expects parameter 2 to be string, array given | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 9
+==========================
+[2017-07-29 02:37:05] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:37:06] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\book.dev\app\traits\CookieTrait.php, | Рядок: 14
+==========================
+[2017-07-29 02:38:21] Текст помилки: A session had already been started - ignoring session_start() | Файл: C:\OpenServer\domains\book.dev\app\controllers\MainController.php, | Рядок: 15
+==========================
+[2017-07-29 11:51:02] Текст помилки: Call to undefined method app\controllers\NotesController::getView() | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 64
+==========================
+[2017-07-29 11:51:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:52:10] Текст помилки: Call to undefined method app\controllers\NotesController::getView() | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 64
+==========================
+[2017-07-29 11:52:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:52:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:52:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:52:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:52:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:04] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:53:04] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:56:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:56:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:56:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:56:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 11:56:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:00:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:00:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:00:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:00:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:00:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:01:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:09] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:03:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:05:54] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:16:13] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:19:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:20:09] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:21:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:21:58] Текст помилки: require(C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php): failed to open stream: Permission denied | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\base\View.php, | Рядок: 52
+==========================
+[2017-07-29 12:22:04] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:22:43] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:22:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:23:13] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:23:18] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:23:21] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:26:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:26:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:27:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:28:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:29:29] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:31:45] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:31:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:33:52] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:34:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:34:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:35:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:36:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:37:06] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:38:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:21] Текст помилки: Контроллер <b>app\controllers\AController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:22] Текст помилки: Контроллер <b>app\controllers\AsController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:22] Текст помилки: Контроллер <b>app\controllers\AssController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:24] Текст помилки: Контроллер <b>app\controllers\AsseController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:24] Текст помилки: Контроллер <b>app\controllers\AssetController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:25] Текст помилки: Контроллер <b>app\controllers\AssetsController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:26] Текст помилки: Контроллер <b>app\controllers\AssetsController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 70
+==========================
+[2017-07-29 12:39:27] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:29] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:30] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:39:46] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:40:20] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:41:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:42:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:42:14] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:42:26] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:42:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:42:53] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:44:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 12:45:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:04:10] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:16:45] Текст помилки: Class 'app\controllers\CaptchaUrls' not found | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 17
+==========================
+[2017-07-29 13:17:15] Текст помилки: Class 'app\controllers\Captcha' not found | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 17
+==========================
+[2017-07-29 13:27:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:29:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:30:09] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:34:25] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 13:34:30] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:16:06] Текст помилки: Trying to get property of non-object | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 74
+==========================
+[2017-07-29 14:21:25] Текст помилки: Помилка валідації | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 21
+==========================
+[2017-07-29 14:27:16] Текст помилки: Капчу не пройдено, ти робот! | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 18
+==========================
+[2017-07-29 14:28:44] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:29:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:29:58] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:30:06] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:30:38] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:30:46] Текст помилки: Капчу не пройдено, ти робот! | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 18
+==========================
+[2017-07-29 14:30:58] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:31:01] Текст помилки: Капчу не пройдено, ти робот! | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 18
+==========================
+[2017-07-29 14:31:05] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:31:13] Текст помилки: Капчу не пройдено, ти робот! | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 18
+==========================
+[2017-07-29 14:31:17] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:31:21] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:32:02] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:32:29] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 14:35:10] Текст помилки: Trying to get property of non-object | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 73
+==========================
+[2017-07-29 14:35:12] Текст помилки: Trying to get property of non-object | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 73
+==========================
+[2017-07-29 14:47:06] Текст помилки: Missing argument 1 for app\models\Notes::getNotes(), called in C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php on line 25 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 78
+==========================
+[2017-07-29 14:54:47] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(posts)' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 14:54:59] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(NOLOCK)' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 14:55:01] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(NOLOCK)' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:05:51] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(admins)' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:10:17] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `notes`' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:11:31] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `notes`' at line 1 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:13:09] Текст помилки: Undefined variable: total | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 84
+==========================
+[2017-07-29 15:20:29] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 15:21:40] Текст помилки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'IDD' in 'field list' | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:33:29] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[Type] 
+        FROM notes' at line 2 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 15:36:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 15:41:00] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 15:44:47] Текст помилки: Call to a member function with() on array | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 89
+==========================
+[2017-07-29 15:45:34] Текст помилки: Call to a member function with() on array | Файл: C:\OpenServer\domains\csbook.dev\app\models\Notes.php, | Рядок: 89
+==========================
+[2017-07-29 16:13:14] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+            LIMIT
+                5
+            OFFSET
+                0 -' at line 2 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 16:15:27] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 16:16:37] Текст помилки: Trying to get property of non-object | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 32
+==========================
+[2017-07-29 16:17:01] Текст помилки: Trying to get property of non-object | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 32
+==========================
+[2017-07-29 16:52:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 16:53:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:03:27] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:03:38] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:03:45] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:04:20] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:04:54] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:05:05] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:06:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:06:38] Текст помилки: Undefined index: name | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 20
+==========================
+[2017-07-29 17:08:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:15:29] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''DESC'
+            LIMIT
+                5
+            OFFSET
+              ' at line 2 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 17:22:06] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:22:22] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:46] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:50] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:52] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:53] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:56] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:58] Текст помилки: Array to string conversion | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 235
+==========================
+[2017-07-29 17:23:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 17:24:32] Текст помилки: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-29 20:54:39] Текст помилки: Call to undefined method vendor\core\base\View::fetch() | Файл: C:\OpenServer\domains\csbook.dev\app\views\layouts\admin.php, | Рядок: 79
+==========================
+[2017-07-29 20:55:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 20:57:21] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:04:15] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:05:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:07:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:08:13] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:08:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:11:44] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:11:54] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:11:54] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:11:54] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:11:54] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:11:55] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:11:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:12:12] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:12] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:12] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:12] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:12] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:14] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:12:30] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:30] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:30] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:30] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:31] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:12:46] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:46] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:46] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:46] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:47] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:12:56] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:56] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:56] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:56] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:57] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:12:58] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:13:46] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:13:49] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:13:49] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:13:49] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:13:49] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:13:50] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:13:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:14:00] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:14:00] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:14:00] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:14:00] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:14:01] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:14:02] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:15:10] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:15:10] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:15:10] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:15:10] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:15:11] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:15:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:22:34] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:22:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:22:40] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:22:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:23:06] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:23:06] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:23:06] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:23:06] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:23:06] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:23:07] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:26:02] Текст помилки: require(C:\OpenServer\domains\csbook.dev\www\botdetect.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 16
+==========================
+[2017-07-29 21:26:13] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:26:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:26:29] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:35:16] Текст помилки: require(C:\OpenServer\domains\csbook.dev\www\admin\botdetect.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 16
+==========================
+[2017-07-29 21:35:31] Текст помилки: require(C:\OpenServer\domains\csbook.dev\www\admin\botdetect.php): failed to open stream: No such file or directory | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 16
+==========================
+[2017-07-29 21:35:36] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:35:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:36:41] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:36:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:36:47] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:36:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:37:47] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:37:49] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:37:51] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:37:53] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:40:14] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:40:16] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:43:30] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:43:36] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:44:00] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:44:16] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:44:40] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 21:45:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:47:42] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:48:04] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:48:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 21:51:35] Текст помилки: сторінку не знайдено | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 14
+==========================
+[2017-07-29 21:52:01] Текст помилки: <p>Нема в'юшки..( C:\OpenServer\domains\csbook.dev/app/views/admin\Admins/test.php</p> | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\base\View.php, | Рядок: 54
+==========================
+[2017-07-29 21:59:43] Текст помилки: Undefined variable: sort_classes | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 20
+==========================
+[2017-07-29 22:00:23] Текст помилки: Undefined variable: sort_classes | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 20
+==========================
+[2017-07-29 22:00:26] Текст помилки: Undefined variable: sort_classes | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 20
+==========================
+[2017-07-29 22:00:34] Текст помилки: Undefined variable: sort_classes | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 20
+==========================
+[2017-07-29 22:02:58] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:18:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:19:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:23:32] Текст помилки: A session had already been started - ignoring session_start() | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 61
+==========================
+[2017-07-29 22:23:57] Текст помилки: сторінку не знайдено | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 14
+==========================
+[2017-07-29 22:24:02] Текст помилки: сторінку не знайдено | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 14
+==========================
+[2017-07-29 22:24:13] Текст помилки: сторінку не знайдено | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 14
+==========================
+[2017-07-29 22:27:07] Текст помилки: сторінку не знайдено | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 14
+==========================
+[2017-07-29 22:29:13] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 64
+==========================
+[2017-07-29 22:29:22] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 22:29:27] Текст помилки: Undefined index: admin_login | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 65
+==========================
+[2017-07-29 22:29:48] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 22:29:53] Текст помилки: Undefined index: admin_login | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 65
+==========================
+[2017-07-29 22:30:48] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 22:30:51] Текст помилки: Undefined index: admin_login | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AdminsController.php, | Рядок: 65
+==========================
+[2017-07-29 22:31:40] Текст помилки: Нема доступу | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 30
+==========================
+[2017-07-29 22:33:58] Текст помилки: Undefined index: admin_pass | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 27
+==========================
+[2017-07-29 22:34:01] Текст помилки: Undefined index: admin_pass | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\AppController.php, | Рядок: 27
+==========================
+[2017-07-29 22:34:23] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 27
+==========================
+[2017-07-29 22:34:25] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 27
+==========================
+[2017-07-29 22:34:31] Текст помилки: Undefined index: admin | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 27
+==========================
+[2017-07-29 22:41:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:41:57] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:43:20] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 73
+==========================
+[2017-07-29 22:44:06] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:30] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:45:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:46:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:46:04] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:16] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:18] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:19] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:20] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:26] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:26] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:26] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:27] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:48:36] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:48:57] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:10] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:11] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:12] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:13] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:13] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:14] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:15] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:16] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:17] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:18] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:50:46] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:50:50] Текст помилки: Missing argument 1 for app\controllers\admin\NotesController::delete(), called in C:\OpenServer\domains\csbook.dev\vendor\core\Router.php on line 65 and defined | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\admin\NotesController.php, | Рядок: 14
+==========================
+[2017-07-29 22:53:30] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:54:47] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:54:50] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:54:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:55:20] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:55:21] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:55:22] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 22:56:12] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 75
+==========================
+[2017-07-29 23:09:47] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:10:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:11:25] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:12:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:12:34] Текст помилки: Капчу не пройдено, ти робот! | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 20
+==========================
+[2017-07-29 23:16:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:16:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:16:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:17:00] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:17:24] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:17:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:17:44] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:18:14] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:23:40] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:23:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:25:09] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:25:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:26:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:31:16] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:31:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:31:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:32:46] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:33:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:39:44] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:40:13] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:40:21] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:40:52] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:41:12] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:41:43] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:42:19] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:44:39] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:44:43] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:44:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:44:57] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:45:10] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:45:40] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:46:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:46:22] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:46:43] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:46:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:47:19] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:47:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:48:25] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:54:38] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:54:53] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:55:25] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:56:15] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:58:09] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:58:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:59:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-29 23:59:41] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:00:15] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:00:19] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:00:46] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:14:54] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:15:33] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 00:49:36] Текст помилки: Class 'app\widgets\NotesTable' not found | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 34
+==========================
+[2017-07-30 00:50:21] Текст помилки: Object of class app\widgets\tables\NotesTable could not be converted to string | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 43
+==========================
+[2017-07-30 00:50:44] Текст помилки: Object of class app\widgets\tables\NotesTable could not be converted to string | Файл: C:\OpenServer\domains\csbook.dev\app\views\Notes\index.php, | Рядок: 43
+==========================
+[2017-07-30 00:51:10] Текст помилки: Cannot access protected property app\widgets\tables\NotesTable::$table_html | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 35
+==========================
+[2017-07-30 00:51:39] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:02:05] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:02:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:03:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:06:44] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:07:51] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:10:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:10:53] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:10:56] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:19:02] Текст помилки: Контроллер <b>app\controllers\UpdateTableController</b> не знайдено | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 71
+==========================
+[2017-07-30 01:19:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:19:39] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:20:16] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:20:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:24:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:29:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:30:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:30:12] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:39:43] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:39:49] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:40:22] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:40:59] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:47:18] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:47:31] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:47:37] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:48:00] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:49:12] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:50:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:51:55] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:52:14] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:52:45] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:52:58] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:53:11] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:53:23] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:53:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:54:08] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:54:18] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:54:40] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:55:34] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:57:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:57:35] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:57:51] Текст помилки: json_decode() expects parameter 1 to be string, array given | Файл: C:\OpenServer\domains\csbook.dev\app\controllers\NotesController.php, | Рядок: 22
+==========================
+[2017-07-30 01:59:32] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 01:59:46] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:01:10] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:02:03] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:06:01] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:07:10] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:09:26] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:14:14] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:15:05] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:16:05] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:18:48] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:19:17] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:19:28] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:19:40] Текст помилки: Сторінка не знайдена | Файл: C:\OpenServer\domains\csbook.dev\vendor\core\Router.php, | Рядок: 74
+==========================
+[2017-07-30 02:22:45] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:23:58] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:24:01] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:24:15] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:24:17] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:24:18] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:24:19] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:26:15] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:27:34] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================
+[2017-07-30 02:27:46] Текст помилки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15 -- keep-cache' at line 6 | Файл: C:\OpenServer\domains\csbook.dev\vendor\libs\rb.php, | Рядок: 720
+==========================

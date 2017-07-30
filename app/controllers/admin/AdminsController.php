@@ -8,6 +8,9 @@ use app\models\Admins;
 class AdminsController extends AppController
 {
 
+    /**
+     * Логінить адміна, якщо стоїть галочка (запамятати), записує куку на місяць
+     */
     public function login()
     {
         if(isset($_SESSION['admin']) && $_SESSION['admin'] === true) {
@@ -40,21 +43,14 @@ class AdminsController extends AppController
             $this->redirect('/admin/login');
         }
         $error = '';
-
         if(!empty($_SESSION['error'])){
             $error = $_SESSION['error'];
             unset($_SESSION['error']);
         }
-
         $captcha = $Captcha->Html();
-        $captcha = str_replace('src="botdetect.php', 'src="http://csbook.dev/botdetect.php', $captcha);
         $this->set(compact(['captcha', 'error']));
     }
 
-    public function test()
-    {
-
-    }
 
     public function logout()
     {

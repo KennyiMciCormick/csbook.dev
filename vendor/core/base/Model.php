@@ -15,6 +15,7 @@ abstract class Model
     {
         $this->pdo = Db::instance();
     }
+//   функції для роботи без ORM
 //
 //    public function query($sql)
 //    {

@@ -9,7 +9,9 @@ use app\widgets\tables\NotesTable;
 
 class NotesController extends AppController
 {
-
+    /**
+     * Видає таблицю Notes посортовану по GET параметрах, а також дає можливість щось записати в ню
+     */
     public function index()
     {
         require WWW . '/botdetect.php';
@@ -44,6 +46,9 @@ class NotesController extends AppController
         $this->set(['captcha' => $captcha, 'table' => $table->table_html]);
     }
 
+    /**
+     * Видає таблицю Notes посортовану по GET параметрах для AJAX запитів
+     */
     public function updateTable()
     {
         $this->layout = false;

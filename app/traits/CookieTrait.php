@@ -4,11 +4,18 @@ use app\models\Admins;
 
 trait CookieTrait
 {
+    /**
+     * зберігає куку на місяць
+     */
     protected function setCookie($name, $value)
     {
         setcookie($name,$value,time()+60*60*24*30, '/', null, null, true);
     }
 
+    /**
+     * перевіряє чи є кука для входу в адмінку, якщо є і дані збігаються - записує сесію
+     * @return boolean
+     */
     protected function checkRememberMeCookies()
     {
 //        debug($_COOKIE['admin']); die;

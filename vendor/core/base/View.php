@@ -42,6 +42,11 @@ class View
         $this->view = $view;
     }
 
+    /**
+     * рендерить потрібну вюшку, дає доступ в вюшках до потрібних нам змінних
+     * @param array $vars
+     * @return void
+     */
     public function render($vars)
     {
        if(is_array($vars)){ extract($vars); };
@@ -54,7 +59,6 @@ class View
                 throw new \Exception('<p>Нема в\'юшки..( ' . $file_view . '</p>', 404);
             }
             $content = ob_get_clean();
-
             $file_layout = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($file_layout)) {
                 require $file_layout;

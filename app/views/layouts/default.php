@@ -11,6 +11,25 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
 
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
     <!-- ================== BEGIN BASE CSS STYLE ================== -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
     <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
@@ -79,105 +98,8 @@
 
 <!-- ================== END BASE JS ================== -->
 <script src="/assets/js/jquery.validate.js"></script>
-
+<script src="/js/table.js"></script>
 <script>
-    var table = {
-        init: function () {
-            this.events();
-        },
-        scrollTo: function (scroll_el) {
-            if ($(scroll_el).length != 0) {
-                $('html, body').animate({ scrollTop: $(scroll_el).offset().top - 100 }, 500); // анимируем скроолинг к элементу scroll_el
-            }
-        },
-        updateTable: function (query) {
-            this.scrollTo('.content');
-            var destination = $('.content').offset().top;
-            console.log(destination);
-            if ($.browser.safari) {
-                $('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
-            } else {
-                $('html').animate({ scrollTop: destination }, 1100);
-            }
-
-            $('#notesTableCover').addClass('updatingTable');
-            $.ajax({
-                type: "GET",
-                url: '/notes/updateTable' + query,
-                success: function (response) {
-                    if (response) {
-                        $('#notesTable').remove();
-                        $('#notesTableCover').append(response).removeClass('updatingTable');
-                    } else {
-                        alert('ERROR');
-                    }
-                }
-            });
-        },
-        events: function () {
-            var self = this;
-            $(document).on('click', '.sort_link', function (event) {
-                event.preventDefault();
-                var href = $(this).attr('href');
-                history.pushState('', '', href);
-                self.updateTable(href.substr(1));
-            });
-
-
-            $("#sendNoticeForm").validate({
-                validClass: "success-validate",
-                errorClass: "error-validate",
-                errorElement: "div",
-                errorPlacement: function (error, element) {
-                    return false;
-                },
-                rules: {
-                    name: {
-                        required: true,
-                        minlength: 2,
-                        maxlength: 40
-                    },
-                    email: {
-                        required: true,
-                        fullEmail: true,
-                        maxlength: 40
-                    },
-                    message: {
-                        required: true,
-                        minlength: 2
-                    },
-                    site: {
-                        maxlength: 200
-                    },
-                    CaptchaCode: {
-                        required: true
-                    }
-                },
-                submitHandler: function (form) {
-                    $.ajax({
-                        type: "POST",
-                        url: '/',
-                        data: $(form).serialize(),
-                        success: function (response) {
-                            response = JSON.parse(response);
-                            if (response.error != false) {
-                                swal(response.error, '', "error");
-                                Captcha.ReloadImage();
-                            } else {
-                                var loc = location.href;
-                                self.updateTable('?' + loc.split('?')[1]);
-                                $(form)[0].reset();
-                                Captcha.ReloadImage();
-
-                            }
-                        }
-                    });
-                    return false;
-                }
-            });
-        }
-    };
-
     $(document).ready(function () {
         App.init();
         jQuery.validator.addMethod("fullEmail", function (value, element) {
@@ -185,95 +107,11 @@
         }, 'Please enter a valid email address.');
         table.init();
     });
-
-
 </script>
 
 <?php if (!empty($admin)) { ?>
     <script src="/bower_components/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        $('.verifyRe').click(function (event) {
-            event.preventDefault();
-            var t = $(this);
-            var href = t.attr('href');
-            swal({
-                title: t.data('title'),
-                text: t.data('description'),
-                showCancelButton: true,
-                closeOnConfirm: false,
-                showLoaderOnConfirm: true,
-                confirmButtonColor: t.data('color_button'),
-                confirmButtonText: "Так",
-                cancelButtonColor: "#b6c2c9",
-                cancelButtonText: "Відмінити"
-            }, function (isConfirm) {
-                if (isConfirm) {
-                    $.ajax({
-                        type: "POST",
-                        url: href,
-                        success: function (response) {
-                            console.log(response);
-                            if (response) {
-                                t.closest('tr').remove();
-                                swal('Видалено!');
-                            } else {
-                                alert('ERROR');
-                            }
-                        }
-                    });
-                }
-            });
-        });
-
-        $('#modal-edit').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget);
-            var msg = button.closest('tr').find('.message').text();
-            var id = button.data('id');
-            console.log(msg);
-            console.log(id);
-            var modal = $(this);
-            modal.find('#edit-msg').val(msg);
-            modal.find('#edit-id').val(id);
-        });
-
-        $("#editForm").validate({
-            validClass: "success-validate",
-            errorClass: "error-validate",
-            errorElement: "div",
-            errorPlacement: function (error, element) {
-                return false;
-            },
-            rules: {
-                message: {
-                    required: true,
-                    minlength: 2
-                }
-            },
-            submitHandler: function (form) {
-//                form.submit();
-                var em = $('#edit-msg');
-                var ei = $('#edit-id');
-                var msg = em.val();
-                em.val('');
-                var id = ei.val();
-                ei.val('');
-                $.ajax({
-                    type: "POST",
-                    url: '/admin/notes/edit/' + id,
-                    data: {msg: msg},
-                    success: function (response) {
-                        if (response) {
-                            $('.notesTable .note-' + id + ' .message').html(response);
-                        } else {
-                            alert('ERROR');
-                        }
-                        $('#modal-edit').modal('hide');
-                    }
-                });
-                return false;
-            }
-        });
-    </script>
+    <script src="/js/admin.js"></script>
 <?php } ?>
 </body>
 </html>

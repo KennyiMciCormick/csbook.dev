@@ -32,9 +32,8 @@ class Db
 //        R::fancyDebug(TRUE);
 
 
-
+//        Зробив бо з RedBean не працював запит SELECT COUNT(*)
 //        ALL WITHOUT REDBEAN
-
 //        \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION - шоб викидувало помилки коли нема такої таблиці і тд..
 //        \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC - для того шоб виводило тіки масив тіки з норм ключами
         $options = [

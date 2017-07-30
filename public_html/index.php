@@ -10,7 +10,7 @@ define('LIBS', dirname(__DIR__) . '/vendor/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
-define('DEBUG', 1);
+define('DEBUG', 0);
 
 require '../vendor/libs/functions.php';
 

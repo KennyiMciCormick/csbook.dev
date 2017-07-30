@@ -15,13 +15,16 @@ class AppController extends Controller
 {
     use CookieTrait;
 
-    public $meta = [];
     public $layout = 'admin';
-//    типу beforeFilter? initialize і тд..
+
+    /**
+     * перевіряє чи залогіннений адмін, якщо так - вертає 404
+     * якщо ні, то дозволяє зайти тільки на  Admins - login
+     * також перевіряє чи є кука Запамятати..
+     */
     public function __construct($route)
     {
         parent::__construct($route);
-
         session_start();
         if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             $bool = $this->checkRememberMeCookies();
@@ -30,13 +33,6 @@ class AppController extends Controller
                 throw new \Exception('Нема доступу', 404);
             }
         }
-
     }
 
-    protected function setMeta($title = '', $description = '', $keywords = '')
-    {
-        $this->meta['title'] = $title;
-        $this->meta['description'] = $description;
-        $this->meta['keywords'] = $keywords;
-    }
 }

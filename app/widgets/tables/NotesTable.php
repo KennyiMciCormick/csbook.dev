@@ -5,12 +5,38 @@ namespace app\widgets\tables;
 
 class NotesTable
 {
+    /**
+     * поточна таблиця
+     * @var string
+     */
     protected $model;
+    /**
+     * дата для обробки
+     * @var array
+     */
     protected $data;
+    /**
+     * чи залогінений адмін
+     * @var boolean
+     */
     protected $admin = false;
+    /**
+     * відрендерений html код таблиці
+     * @var boolean
+     */
     public $table_html;
+    /**
+     * шлях до шаблону таблиці
+     * @var string
+     */
     protected $tpl = __DIR__ . '/table_tmp/table.php';
 
+
+    /**
+     * перевіряє чи залогінений адмін, формує таблицю
+     * @param array $data
+     * @param string $model
+     */
     public function __construct($data, $model)
     {
         if(isset($_SESSION['admin']) && $_SESSION['admin'] === true){
@@ -21,6 +47,9 @@ class NotesTable
         $this->run();
     }
 
+    /**
+     * дістає данні з моделі, формує таблицю і записує її в змінну $this->table_html
+     */
     protected function run()
     {
         $sortingParams = $this->getSortingParams();
@@ -28,6 +57,10 @@ class NotesTable
 
         $this->table_html =  $this->toTemplate(['admin'=> $this->admin,'notes' => $notes['notes'], 'notes_pages' => $notes['notes_pages']] + $sortingParams);
     }
+
+    /**
+     * формує таблицю
+     */
     protected function toTemplate($params){
         extract($params);
         ob_start();
@@ -35,6 +68,9 @@ class NotesTable
         return ob_get_clean();
     }
 
+    /**
+     * Формує параметри для сортування
+     */
     private function getSortingParams()
     {
         $sorted_names = ['name', 'email', 'created'];
@@ -52,6 +88,10 @@ class NotesTable
         return ['page' => $page, 'sort' => $sort, 'direction' => $direction, 'sort_classes' => $sort_classes];
     }
 
+    /**
+     * Формує дефолтні класи і url для сортувальних елементів
+     * @return array
+     */
     private function getSortDefaultClasses()
     {
         $sort_classes['name']['class'] = 'sorting';
@@ -65,6 +105,10 @@ class NotesTable
         return $sort_classes;
     }
 
+    /**
+     * Формує класи і url для сортувальних елементів за вхідними данними
+     * @return array
+     */
     private function getSortClasses($arr, $sort, $direction)
     {
         $result = [];

@@ -10,6 +10,12 @@ class Notes extends Model
 {
     public $table = 'notes';
 
+    /**
+     * захист від XSS.. обрізає таги.. найшов ше функці htmlentities і htmlspecialchars..
+     * але потім подумав шо раз обрізаю всі таги то вони не потрібні)
+     * @param array $data
+     * @return  array
+     */
     protected function stripAllTags($data)
     {
         foreach ($data as $key => $item) {
@@ -23,18 +29,31 @@ class Notes extends Model
         return $data;
     }
 
+    /**
+     * перевіряє чи змінна являється корректним email
+     * @param string $email
+     * @return  string
+     */
     public function isEmail($email)
     {
         return (filter_var($email, FILTER_VALIDATE_EMAIL));
     }
 
+    /**
+     * перевіряє на наявність всіх обовязкових полів
+     * @param array $data
+     * @return  boolean
+     */
     public function defaultValidate($data)
     {
         extract($data);
         return (!empty($name) && !empty($email) && $this->isEmail($email) && !empty($message));
-
     }
 
+    /**
+     * Вертає Айпі клієнта, якшо не находить вертає UNKNOWN
+     * @return  string
+     */
     function get_client_ip() {
         $ip = '';
         if (isset($_SERVER['HTTP_CLIENT_IP']))
@@ -54,6 +73,11 @@ class Notes extends Model
         return $ip;
     }
 
+    /**
+     * Зберігає запис в таблицю
+     * @param array $data
+     * @return  boolean
+     */
     public function saveNote($data)
     {
         $data = $this->stripAllTags($data);
@@ -71,11 +95,11 @@ class Notes extends Model
         return false;
     }
 
-    public function paginate($notes)
-    {
-        debug(count($notes)); die;
-    }
-
+    /**
+     * видаляє запис з таблиці по id
+     * @param int $id
+     * @return  boolean
+     */
     public function delete($id)
     {
         $note = R::load($this->table, $id);
@@ -83,6 +107,12 @@ class Notes extends Model
         return true;
     }
 
+    /**
+     * дозволяє редагувати повідомлення в записі по id, вуртає збережене повідомлення
+     * @param int $id
+     * @param string $msg
+     * @return  string
+     */
     public function edit($id, $msg)
     {
         $note = R::load($this->table, $id);
@@ -92,6 +122,14 @@ class Notes extends Model
 
     }
 
+    /**
+     * Вертає пагіновані записи з таблиці, посортовані відповідно до параметрів,
+     * також вертає к-сть сторінок
+     * @param int $page
+     * @param string $sort
+     * @param string $direction
+     * @return  array
+     */
     public function getNotes($page, $sort, $direction)
     {
         date_default_timezone_set('Europe/Kiev');
@@ -102,8 +140,6 @@ class Notes extends Model
         $limit = 5;
         $pages = ceil($total / $limit);
         $offset = ($page - 1)  * $limit;
-
-
 
         if(!empty($sort) && !empty($direction)){
             $sql = "ORDER BY
@@ -124,7 +160,6 @@ class Notes extends Model
                 ?";
             $options = [$limit, $offset];
         }
-
         $notes = R::findAll($this->table, $sql, $options);
         return ['notes' => $notes, 'notes_pages' => $pages];
     }

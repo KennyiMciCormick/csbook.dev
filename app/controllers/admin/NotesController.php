@@ -13,6 +13,9 @@ use app\models\Notes;
 
 class NotesController extends AppController
 {
+    /**
+     * Дозволяє видалити запис з таблиці Notes
+     */
     public function delete()
     {
         $this->layout = false;
@@ -24,6 +27,10 @@ class NotesController extends AppController
             throw new \Exception('Сторінка не знайддена', 404);
         }
     }
+
+    /**
+     * Дозволяє редагувати повідомлення в таблиці Notes
+     */
     public function edit()
     {
         $this->layout = false;

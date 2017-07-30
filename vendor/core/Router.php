@@ -4,24 +4,54 @@ namespace vendor\core;
 
 class Router
 {
+    /**
+     * массив маршрутів
+     * @var array
+     */
     protected static $routes = [];
+
+    /**
+     * поточний маршрут
+     * @var array
+     */
     protected static $route = [];
 
+    /**
+     * дабв=авляє маршрут
+     *
+     * @param string $regexp регулярное выражение маршрута
+     * @param array $route маршрут ([controller, action, params])
+     */
     public static function add($regexp, $route = [])
     {
         self::$routes[$regexp] = $route;
     }
 
+    /**
+     * вертає всі маршрути
+     *
+     * @return array
+     */
     public static function getRoutes()
     {
         return self::$routes;
     }
 
+    /**
+     * вертає поточний маршрут (controller, action, [params])
+     *
+     * @return array
+     */
     public static function getRoute()
     {
         return self::$route;
     }
 
+    /**
+     * шукає URL в масиві маршрутів
+     * @param string $url
+     * @return boolean
+     */
     public static function matchRoute($url)
     {
         foreach (self::$routes as $pattern => $route) {
@@ -50,7 +80,11 @@ class Router
         return false;
     }
 
+
     /**
+     * перенаправляє по маршруту, викликає контроллер, екшн
+     * @param string $url
+     * @return void
      */
     public static function dispatch($url)
     {
@@ -75,16 +109,31 @@ class Router
         }
     }
 
+    /**
+     * до CamelCase (для контроллерів)
+     * @param string $name
+     * @return string
+     */
     protected static function upperCamelCase($name)
     {
         return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
     }
 
+    /**
+     * до CamelCase (для екшенів), перша буква мала
+     * @param string $name строка для преобразования
+     * @return string
+     */
     protected static function lowerCamelCase($name)
     {
         return lcfirst(self::upperCamelCase($name));
     }
 
+    /**
+     * поаертає url без GET параметрів
+     * @param string $url
+     * @return string
+     */
     protected static function removeQueryString($url)
     {
         if($url){
